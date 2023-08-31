@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Roboto-Black";
+  src: url("../../fonts/Roboto-Black.ttf");
+}
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("../../fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("../../fonts/Roboto-Medium.ttf");
+}
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../../fonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("../../fonts/Roboto-Light.ttf");
+}
+@font-face {
+  font-family: "Roboto-Thin";
+  src: url("../../fonts/Roboto-Thin.ttf");
+}
+
+@font-face {
+  font-family: "instagram";
+  src: url("../../fonts/instagram.otf");
+}
+
+$font_black: "Roboto-Bold", "sans-serif";
+$font_bold: "Roboto-Bold", "sans-serif";
+$font_medium: "Roboto-Medium", "sans-serif";
+$font_regular: "Roboto-Regular", "sans-serif";
+$font_light: "Roboto-Light", "sans-serif";
+$font_thin: "Roboto-Light", "sans-serif";
+$font_instagram: "instagram", "sans-serif";
+
+$color-primary: #405de6;
+$color-secondary: #e1306c;
+$color-neutral-1: #fafafa;
+$color-neutral-2: #262626;
+$color-neutral-3: #000000;
+
+$linear__color: linear-gradient(
+  0deg,
+  rgba(201, 19, 185, 1),
+  rgba(249, 55, 63, 1) 40%,
+  rgba(254, 205, 0, 1)
+);
+
+$padding__section: 100px;
