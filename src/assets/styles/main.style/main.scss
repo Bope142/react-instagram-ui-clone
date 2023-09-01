@@ -30,35 +30,6 @@ body {
   background: $color-neutral-3;
   width: 100%;
   height: 100vh;
-  color: white;
-  align-items: center;
+  position: relative;
   display: flex;
-  justify-content: center;
-  font-size: 4rem;
-  text-align: center;
-  font-family: $font_bold;
-  line-height: 5rem;
 }
-
-// .container__app {
-//   display: grid;
-//   grid-template-columns: 300px 1fr;
-//   gap: 25px;
-// }
-
-// .main__view__page {
-//   background: white;
-//   padding: 20px;
-//   position: relative;
-//   overflow: hidden;
-//   padding-bottom: 25px;
-// }
-// .page__setcion {
-//   overflow: hidden;
-//   background: rgb(255, 255, 255);
-//   height: 100%;
-//   margin-top: 10px;
-//   overflow-y: scroll;
-//   padding: 10px;
-//   padding-top: 10px;
-// }

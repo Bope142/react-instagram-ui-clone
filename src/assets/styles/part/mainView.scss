@@ -1,0 +1,5 @@
+@import "../main.style/variable.scss";
+.container__main_view_page {
+  background: $color-neutral-3;
+  overflow-y: scroll;
+}

@@ -1,28 +1,24 @@
 @font-face {
-  font-family: "Roboto-Black";
-  src: url("../../fonts/Roboto-Black.ttf");
-}
-@font-face {
-  font-family: "Roboto-Bold";
-  src: url("../../fonts/Roboto-Bold.ttf");
+  font-family: "segoe-ui-bold";
+  src: url("../../fonts/segoe-ui-bold.ttf");
 }
 
 @font-face {
-  font-family: "Roboto-Medium";
-  src: url("../../fonts/Roboto-Medium.ttf");
+  font-family: "segoe-ui-semi-bold";
+  src: url("../../fonts/segoe-ui-semi-bold.ttf");
 }
 @font-face {
-  font-family: "Roboto-Regular";
-  src: url("../../fonts/Roboto-Regular.ttf");
+  font-family: "segoe-ui-regular";
+  src: url("../../fonts/segoe-ui-regular.ttf");
 }
-@font-face {
-  font-family: "Roboto-Light";
-  src: url("../../fonts/Roboto-Light.ttf");
-}
-@font-face {
-  font-family: "Roboto-Thin";
-  src: url("../../fonts/Roboto-Thin.ttf");
-}
+// @font-face {
+//   font-family: "Roboto-Light";
+//   src: url("../../fonts/Roboto-Light.ttf");
+// }
+// @font-face {
+//   font-family: "Roboto-Thin";
+//   src: url("../../fonts/Roboto-Thin.ttf");
+// }
 
 @font-face {
   font-family: "instagram";
@@ -30,11 +26,10 @@
 }
 
 $font_black: "Roboto-Bold", "sans-serif";
-$font_bold: "Roboto-Bold", "sans-serif";
-$font_medium: "Roboto-Medium", "sans-serif";
-$font_regular: "Roboto-Regular", "sans-serif";
-$font_light: "Roboto-Light", "sans-serif";
-$font_thin: "Roboto-Light", "sans-serif";
+$font_bold: "segoe-ui-bold", "sans-serif";
+$font_medium: "segoe-ui-semi-bold", "sans-serif";
+$font_regular: "segoe-ui-regular", "sans-serif";
+
 $font_instagram: "instagram", "sans-serif";
 
 $color-primary: #405de6;
@@ -50,4 +45,5 @@ $linear__color: linear-gradient(
   rgba(254, 205, 0, 1)
 );
 
-$padding__section: 100px;
+$padding__section_LR: 25px;
+$padding__section_TB: 40px;

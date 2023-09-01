@@ -1,0 +1,67 @@
+@import "../../assets/styles/main.style/variable.scss";
+
+.link-nav-item {
+  display: flex;
+  align-items: center;
+  column-gap: 18px;
+  padding: 12px 15px 12px 0;
+  border-radius: 0.5rem;
+  transition: all 0.3s linear;
+  padding-left: 10px;
+  &:hover {
+    background: rgba($color-neutral-1, 0.1);
+    & .nav-item-icons svg {
+      transform: scale(1.1);
+    }
+  }
+  & .nav-item-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: none;
+    position: relative;
+    & svg {
+      height: 1.5rem;
+      width: 1.5rem;
+      transition: all 0.3s linear;
+      transform: scale(1);
+    }
+    & .msg-notification {
+      position: absolute;
+      height: 18px;
+      width: 18px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: $color-neutral-1;
+      font-size: 0.7rem;
+      background: #f13033;
+      right: -20%;
+      top: -30%;
+      z-index: 50;
+    }
+  }
+  & .profil-item-icons {
+    display: flex;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 24px;
+    width: 24px;
+    & img {
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+  & .nav-item-text {
+    font-family: $font_regular;
+    color: $color-neutral-1;
+    font-size: 16px;
+    align-self: center;
+    transform: translateY(10%);
+  }
+  & .select-item {
+    font-family: $font_bold !important;
+  }
+}

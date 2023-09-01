@@ -1,0 +1,29 @@
+@import "../main.style/variable.scss";
+.app__navigation {
+  background: $color-neutral-3;
+  width: 220px;
+  flex: none;
+  border-right: 1px solid rgba($color-neutral-1, 0.1);
+  padding: $padding__section_TB $padding__section_LR $padding__section_TB 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  row-gap: 35px;
+  justify-content: space-between;
+}
+
+.nav-menu-logo {
+  display: flex;
+  flex: none;
+  padding-left: $padding__section_LR;
+  & .icons-instagram-title * {
+    fill: $color-neutral-1;
+  }
+}
+
+.nav-menu-item-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 7px;
+  padding-left: 15px;
+}
