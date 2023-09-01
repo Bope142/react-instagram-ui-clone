@@ -1,13 +1,13 @@
 @import "./reset.scss";
 @import "./variable.scss";
 
-* {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
-}
-*::-webkit-scrollbar {
-  display: none;
-}
+// * {
+//   -ms-overflow-style: none; /* IE and Edge */
+//   scrollbar-width: none; /* Firefox */
+// }
+// *::-webkit-scrollbar {
+//   display: none;
+// }
 body {
   height: 100vh;
   overflow: hidden;

@@ -1,0 +1,92 @@
+@import "../../assets/styles/main.style/variable.scss";
+
+.card-pub {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  //   background: red;
+  overflow: hidden;
+}
+
+.card__header {
+  display: flex;
+  overflow: hidden;
+  flex: none;
+  align-items: center;
+  column-gap: 5px;
+  & .days-pub {
+    font-size: 13px;
+    font-family: $font_regular;
+    color: #a8a8a8;
+    margin-left: 10px;
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      height: 4px;
+      width: 4px;
+      background: #a8a8a8;
+      border-radius: 50%;
+      top: 50%;
+      left: -25%;
+      transform: translateY(-50%);
+    }
+  }
+  & .btn-more-action-pub {
+    margin-left: auto;
+    border: none;
+    background: transparent;
+    outline: none;
+    flex: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & svg {
+      height: 1.5rem;
+      width: 1.5rem;
+      & * {
+        fill: $color-neutral-1;
+      }
+    }
+  }
+  & .profil__card {
+    transform: scale(0.9) !important;
+  }
+}
+
+.content-pub-post {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba($color-neutral-1, 0.05);
+  border-radius: 0.2rem;
+  & img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.card-pub-controll {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5px;
+  & .left-box {
+    display: flex;
+    align-items: center;
+    column-gap: 2px;
+  }
+  & .box-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.like-count {
+  font-family: $font_semibold;
+  font-size: 12px;
+  color: $color-neutral-1;
+}

@@ -1,0 +1,16 @@
+@import "../../assets/styles/main.style/variable.scss";
+
+.user-name-label {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  & p {
+    text-transform: lowercase;
+    font-family: $font_semibold;
+    color: white;
+    font-size: 12px;
+  }
+  & svg {
+    align-self: center;
+  }
+}

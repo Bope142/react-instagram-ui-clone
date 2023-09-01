@@ -1,0 +1,14 @@
+@import "../../assets/styles/main.style/variable.scss";
+
+.btn-follow {
+  font-family: $font_semibold;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #0282c3;
+  font-size: 12px;
+  transition: all 0.3s linear;
+  &:hover {
+    color: #e0f1ff;
+  }
+}

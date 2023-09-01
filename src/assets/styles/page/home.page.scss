@@ -1,0 +1,123 @@
+@import "../main.style/variable.scss";
+
+#home-page-section {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  column-gap: 55px;
+  overflow: hidden;
+}
+
+.home__story-user {
+  display: flex !important;
+  //   column-gap: 12px;
+  flex-direction: row !important;
+}
+
+.section__article_fil-user {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding-right: 10px;
+  row-gap: 50px;
+  & .content__story_user {
+    padding-right: 25px !important;
+  }
+  & .section__pulication__fill {
+    padding: 5px 70px;
+    // overflow: hidden;
+    // display: flex;
+    // align-items: center;
+    // flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+  }
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  //   background: red;
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+// .swiper-slide {
+//   //   text-align: center;
+//   //   font-size: 18px;
+//   //   background: #1c0a0a;
+
+//   /* Center slide text vertically */
+//   //   display: flex;
+//   //   justify-content: center;
+//   //   align-items: center;
+// }
+
+// .swiper-slide img {
+//   //   display: block;
+//   //   width: 100%;
+//   //   height: 100%;
+//   //   object-fit: cover;
+// }
+
+.section__aside-suggestion {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  & .aside__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: $font_semibold;
+    font-size: 1rem;
+    color: #a8a8a8;
+    & .link-explore {
+      color: #f5f5f5;
+    }
+  }
+
+  & .aside__suggestion_user {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    & .user-suggestion {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      //column-gap: 7px;
+      & .user-suggestion-detail {
+        display: flex;
+        flex-direction: column;
+        row-gap: 7px;
+        & .followed-user-stats {
+          font-family: $font_regular;
+          font-size: 12px;
+          color: #a8a8a8;
+        }
+      }
+    }
+  }
+
+  & .aside__footer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    & .content-link-footer-aside {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      & * {
+        font-family: $font_regular;
+        color: #737373;
+        font-size: 12px;
+      }
+    }
+    & p {
+      font-family: $font_regular;
+      color: #737373;
+      font-size: 12px;
+      line-height: 1.2rem;
+      text-align: center;
+    }
+  }
+}

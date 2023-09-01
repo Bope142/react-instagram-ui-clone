@@ -27,7 +27,7 @@
 
 $font_black: "Roboto-Bold", "sans-serif";
 $font_bold: "segoe-ui-bold", "sans-serif";
-$font_medium: "segoe-ui-semi-bold", "sans-serif";
+$font_semibold: "segoe-ui-semi-bold", "sans-serif";
 $font_regular: "segoe-ui-regular", "sans-serif";
 
 $font_instagram: "instagram", "sans-serif";
@@ -39,10 +39,10 @@ $color-neutral-2: #262626;
 $color-neutral-3: #000000;
 
 $linear__color: linear-gradient(
-  0deg,
-  rgba(201, 19, 185, 1),
-  rgba(249, 55, 63, 1) 40%,
-  rgba(254, 205, 0, 1)
+  210deg,
+  rgb(255, 0, 234),
+  rgb(237, 0, 8) 40%,
+  rgb(255, 204, 0)
 );
 
 $padding__section_LR: 25px;
